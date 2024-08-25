@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>App-Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="current-date"></div>
+      <div class="color-picker">
+        <label for="Background Color">Background Color:</label>
+        <select id="color-options">
+          <option value="white">White</option>
+          <option value="gray">Gray</option>
+          <option value="lightgreen">Light Green</option>
+          <option value="lightblue">Light Blue</option>
+        </select>
+      </div>
+      <h1>App-Store</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder="Search"
+          class="search-bar"
+          id="search-bar"
+        />
+        <select id="search-field">
+          <option value="name">Search by name</option>
+          <option value="description">Search by description</option>
+          <option value="url">Search by url</option>
+        </select>
+        <button id="search-button">Search</button>
+      </div>
+      <div class="apps-container">
+        <div class="app">
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="assets/youtube.png" alt="Youtube" class="app-icon" />
+          </a>
+          <div class="app-name">Youtube</div>
+          <div class="app-description">
+            Watch some videos and shorts, also music playlists
+          </div>
+        </div>
+        <div class="app">
+          <a href="https://www.w3schools.com/" target="_blank">
+            <img src="assets/w3schools.png" alt="W3Schools" class="app-icon" />
+          </a>
+          <div class="app-name">W3Schools</div>
+          <div class="app-description">
+            Learn popular coding languages, frontend, backend programming, etc'
+          </div>
+        </div>
+        <div class="app">
+          <a href="https://github.com/" target="_blank">
+            <img src="assets/github.png" alt="Github" class="app-icon" />
+          </a>
+          <div class="app-name">Github</div>
+          <div class="app-description">
+            The perfect place to manage your code
+          </div>
+        </div>
+        <div class="app">
+          <a
+            href="https://visualstudio.microsoft.com/msdn-platforms/"
+            target="_blank"
+          >
+            <img src="assets/msdn.png" alt="MSDN" class="app-icon" />
+          </a>
+          <div class="app-name">MSDN</div>
+          <div class="app-description">Microsoft Related Programming Docs</div>
+        </div>
+        <div class="app">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="assets/facebook.png" alt="Facebook" class="app-icon" />
+          </a>
+          <div class="app-name">Facebook</div>
+          <div class="app-description">
+            The biggest social network to ever exist!
+          </div>
+        </div>
+        <div class="app">
+          <a href="https://www.ynet.co.il/" target="_blank">
+            <img src="assets/ynet.png" alt="Ynet" class="app-icon" />
+          </a>
+          <div class="app-name">Ynet</div>
+          <div class="app-description">Israel news website</div>
+        </div>
+        <div class="app">
+          <a href="https://www.google.com/" target="_blank">
+            <img src="assets/google.png" alt="Google" class="app-icon" />
+          </a>
+          <div class="app-name">Google</div>
+          <div class="app-description">The Everyday Search Engine</div>
+        </div>
+      </div>
+      <div class="no-results-msg" style="display: none;">No Apps Found</div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

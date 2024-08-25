@@ -1,0 +1,75 @@
+.background {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-container {
+  margin: .5rem;
+}
+
+.search-container > .search-bar {
+  text-align: left;
+  padding: .4rem;
+  margin: .5rem;
+  background-color: rgb(221, 255, 255);
+}
+
+.apps-container {
+  display: flex;
+  background-color: rgb(221, 255, 255);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.app {
+  padding: 1rem;
+  margin-bottom: .5rem;
+}
+
+.app-icon {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: help;
+  margin-bottom: .5rem;
+}
+
+.app > .app-name {
+  margin-bottom: .5rem;
+}
+
+.no-results-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-color: gray;
+  padding: .5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.current-date {
+  display: flex;
+  align-self: flex-start;
+  margin: 0.5rem;
+}
+
+.color-picker {
+  display: flex;
+  align-self: flex-start;
+  margin: 0.5rem;
+}
+
+.color-picker > #color-options {
+  margin-left: 0.5rem;
+}
